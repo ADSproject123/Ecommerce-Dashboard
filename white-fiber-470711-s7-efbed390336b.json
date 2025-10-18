@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "white-fiber-470711-s7",
+  "private_key_id": "efbed390336bc965f929f4a851eb58135cc534a4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKiZpbj7qMQnu6\nhiNzL3ETjcbbq/pE8XzBo58W9oD6zAcoAhzeoOo6R63hkte11X0ggXBXgvpOqE41\npk5tEkpC1tbfBP5OPYUd+sQExkwJOVLL+8IUp2WLoxzzKnGXDzcVSJikChusQfPt\nZL4WNobsB/Zb0anwH45l//tREU2MwNnCHyKH+euFGTUWCMKjxO/yvRm7MdKxaTzb\nfF6yp+5+IEgp6Gq/iDnY/nhyi1aBVjznwTydyxQy0IjPX1o4lDFcGW0/Y+sa5IpS\nU6e4hY4ZxuJKQgg0rntEL+aIswaWUn3BBsQyYFFrff0DRj+PzfegTUGi5eLgtAaZ\nk9UjqQqJAgMBAAECggEACUZUTTgxR9YbjbUVeg32VMDma3FBxx4Bo2m+g4A8881i\ns9dt0MpNL5IJLQ4h8xpfbEeksuff5EcbAU7Swsty9HQprsqSoqzOFb0lV+jaE9vV\nQpRHP50Z51NMModYmStla+dr0KrKRoKr/nc2xTC+7IMzf1QEIqBoMvFVSYqhhkUf\n4ZCcChK7c81kV+hHNYJuesTb11bfj0HwKLtkM2npl3W2KLln6Xbw4n5uJAf7nVl6\n/1T0Li22srKsaA3vwdW4laPzLG9srL2df+vGd5IjehcmiX2tcXOXVfG0QK/JB+cV\nwsFrKDKI15TQjzg4RQ6wzESM9MPXmWbx+FV6v+a+6QKBgQDuS9wyIamhSmgnMjvU\nH7Ait/h9O7PY3SMoyDRQ+NLGvDpVfMFYpjIiVPA6P6nCmtdV1WqYF1TBxvyO9whV\nDEQhGQ/xVPgCvkIa/rowcfhJK4cu8yA2i5ndeDmcMeCEFOV4Py1pyGDvTtJ8ejso\ndHQ1gUrB244HhQ237l3IjDSuXwKBgQDZlaYJXP9QD1y085Nhii2FarUIy511+r2D\nQGp+KSa2eS+RQzUBg5s7d3OVi9mNOluw2GAWIFsGxVWxKatov8vsfVZ9TfcLXADQ\noQobYEe+iE6fSYDhEfOMBI04Qn+QUCsfF6brO3fV3bVnb0qi37CvAfLyFaOS4Mmj\nSvFko06gFwKBgAz4RgjYejIUKa0Qd98oxl5tYvH2AOjpyFMc6nQJxvcYIZirjJ51\nlT73HogdFPFJmjTKw915T5yoZvClE2gFneOrSInbFRCZKGHtwVaHrXrWCqqMgxFU\n8c/zDjepI04tEPxFfARI6rW7tYse3/9orzaGTfpVJ9rS7Bc5uxMCRo/DAoGAECe+\nVj+jbUxWs9DKBpn920QbAPYtUM83NwGXZpqjlzTURVLaIqyk3/t0h4wEsSm+GRlX\nuQzZ9Vy9ihPv+C0VdQ+xVkhtqVhBbzwlxfaWHR19yPHqMcvla2YDHkRBuHNbYEmf\nSSP3N9foWi+3OPSm57ebVEIrDQLHteogljpR4i0CgYEAup8eosX9uS3TrAGTmy3Y\nf+PaNe+iFyI7p2dg/4kbLZ0n3IJDdecxwnFr30sLxrjGuUl1JpW6XskWLx048TVT\nplBMb34JRtWKsvNdDhUHe9yOxj+qTKMOMeWhNB5Pd/PIzVzlNSDBMxQH+22JmIzF\n7ATmcCFpHHfvL8Vikd8CfBk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reanai-transcribe@white-fiber-470711-s7.iam.gserviceaccount.com",
+  "client_id": "116346268862019562449",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reanai-transcribe%40white-fiber-470711-s7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
