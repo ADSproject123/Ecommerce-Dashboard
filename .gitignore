@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/supabase_sql
 /.pnp
 .pnp.*
 .yarn/*
@@ -46,3 +47,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/supabase_sql
+/src/supabase_sql

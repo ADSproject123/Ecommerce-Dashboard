@@ -1,5 +1,5 @@
 import Sidebar, { type SidebarItem } from "@/components/sidebar";
-import Topbar from "@/components/topbar";
+import TopbarClient from "@/components/topbar-client";
 import { redirect } from "next/navigation";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import React from "react";
@@ -20,7 +20,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
     data: { session },
   } = await supabase.auth.getSession();
   if (!session) {
-    redirect("/login");
+    redirect("/auth/login");
   }
   // Query current tenant status (any membership row).
   const { data: tenant } = await supabase
@@ -28,7 +28,14 @@ export default async function DashboardLayout({ children }: { children: React.Re
     .select("is_active")
     .limit(1)
     .single();
-  const isActive = (tenant as any)?.is_active ?? false;
+  
+  // ============================================================
+  // DEVELOPMENT MODE: Billing/Payment is disabled
+  // Set isActive to true to bypass payment requirements
+  // TO RE-ENABLE PAYMENTS: Change this line back to: (tenant as any)?.is_active ?? false
+  // ============================================================
+  const isActive = true; // Development: bypass billing checks
+  // const isActive = (tenant as any)?.is_active ?? false; // Production: enable this line
   const items: SidebarItem[] = [
     {  href: "/dashboard", label: "Dashboard", icon: <MdDashboard />   },
     {  href: "/dashboard/sales", label: "Sales", icon:< MdShoppingCart/> },
@@ -46,7 +53,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
     <div className="flex min-h-dvh">
       <Sidebar items={items} />
       <div className="flex min-h-dvh flex-1 flex-col bg-[#EEF2F7]">
-        <Topbar title="SYSTEM MANAGER" />
+        <TopbarClient title="SYSTEM MANAGER" />
         <main className="flex-1 p-4 md:p-6">
           <BillingBanner isActive={isActive} />
           {children}
@@ -56,4 +63,3 @@ export default async function DashboardLayout({ children }: { children: React.Re
   );
 }
 
-// Billing gate is implemented as a client component in components/billing-gate.tsx
